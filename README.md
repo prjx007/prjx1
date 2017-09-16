@@ -7,9 +7,9 @@ gcloud auth login
 # list the configurations 
 gcloud config configurations list
 
-gcloud config list
-gcloud config set project [PROJECT]
-gcloud config set compute/zone us-east1-b
+#gcloud config list
+#gcloud config set project [PROJECT]
+#gcloud config set compute/zone us-east1-b
 
 # Listing components
 gcloud components list
