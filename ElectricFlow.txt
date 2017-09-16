@@ -1,0 +1,13 @@
+Get ElectricFlow for Docker
+
+Run the following docker command to download and start the ElectricFlow container:
+$ docker run --name efserver --hostname=efserver -d -m 6g -p 8080:8080 -p 9990:9990 -p 7800:7800 -p 7070:80 -p 443:443 -p 8443:8443 -p 8200:8200 -i -t ecdocker/eflow-ce
+
+This runs using Docker. If you do not already have Docker installed, you can download Docker and install it from here.
+It will take a few minutes for the server to start. Once the container is running, Create your Admin account by visiting http://localhost:7070/register
+
+Access ElectricFlow by visiting http://localhost:7070/flow
+
+Make sure you have at least 6GB of memory allocated to Docker.
+
+See detailed instructions here.https://helpcenter.electric-cloud.com/hc/en-us/articles/115003639743-Docker-ElectricFlow-Community-Edition-getting-started?page=1
